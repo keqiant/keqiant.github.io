@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Keqian Tang — Robotics research, personalized robotic manipulation, and education.">
+  <meta name="theme-color" content="#f8f7f3">
+  <title>Keqian Tang — Personal Website</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="page">
+    <header class="topbar">
+      <a class="wordmark" href="#">KT<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a><a href="#education">Education</a>
+      </nav>
+      <a class="nav-cv" href="assets/CV_Keqian_Tang.pdf" target="_blank" rel="noopener">View CV <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="name">
+        <img class="hero-photo" src="assets/photo.png" alt="Keqian Tang in front of the Hollywood Hills" width="4032" height="3024" fetchpriority="high">
+        <div class="hero-copy">
+          <h1 id="name">Keqian Tang<span>.</span></h1>
+          <div class="hero-bottom">
+            <p>Research in robotics.<br><span>Learning to act, adapting to people.</span></p>
+          </div>
+        </div>
+      </section>
+      <div class="content-grid">
+        <aside class="profile">
+          <p class="section-label">ABOUT ME</p>
+          <p class="intro">I graduated from the Department of Automation at Tsinghua University in 2026.</p>
+          <p class="muted">My research focuses on robotic manipulation, with a particular interest in foundation models for robots.</p>
+          <div class="contact-links">
+            <a href="mailto:keqiantang04@gmail.com">Email <span aria-hidden="true">↗</span><small>keqiantang04@gmail.com</small></a>
+            <a href="https://github.com/keqiant" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span><small>@ColaWithSugar</small></a>
+          </div>
+          <div class="skills">
+            <h2 class="section-label">TOOLKIT</h2>
+            <ul><li>Python</li><li>C/C++</li><li>Linux</li><li>ROS2</li><li>PyTorch</li><li>Git / GitHub</li><li>LLM fine-tuning</li></ul>
+          </div>
+        </aside>
+        <div class="details">
+          <section id="research" class="detail-section">
+            <div class="section-heading"><h2>Research</h2><span>01</span></div>
+            <h3 class="paper-title"><a href="https://arxiv.org/abs/2610.22372" target="_blank" rel="noopener">LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation</a></h3>
+            <p class="paper-authors">Zhixu Li<sup>*</sup>, <strong>Keqian Tang<sup>*</sup></strong>, Litian Gong<sup>*</sup>, Jingyu Yao, Wenqian Zhang, Tianze Xu, Zehao Wang, Yuping Wang, Junge Zhang, Jiachen Li<br><span class="equal-contribution">* Equal contribution</span></p>
+            <p class="paper-venue">NeurIPS 2026 <span>Evaluations and Datasets Track</span></p>
+            <figure class="paper-figure">
+              <a href="https://libero-perm.github.io/" target="_blank" rel="noopener" aria-label="Explore the LIBERO-PeRM project and its benchmark overview">
+                <img src="assets/libero-perm-overview.png" width="1673" height="908" alt="LIBERO-PeRM overview showing five robotic manipulation task suites and research topics in learning and evaluating user preferences." loading="lazy">
+              </a>
+              <figcaption>LIBERO-PeRM benchmark overview · Figure from the <a href="https://libero-perm.github.io/" target="_blank" rel="noopener">project website ↗</a></figcaption>
+            </figure>
+            <p>A benchmark for learning user preferences in robotic manipulation, with 312 tasks across five suites. It evaluates both task completion and preference satisfaction, covering motion, skill, and user-profile preferences.</p>
+            <div class="paper-links"><a href="https://arxiv.org/abs/2610.22372" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a><a href="https://libero-perm.github.io/" target="_blank" rel="noopener">Project website <span aria-hidden="true">↗</span></a></div>
+          </section>
+          <section id="education" class="detail-section">
+            <div class="section-heading"><h2>Education</h2><span>02</span></div>
+            <div class="title-row"><h3>Tsinghua University</h3><span class="date">2022 — 2026</span></div>
+            <p>Undergraduate · Department of Automation</p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer><span>Keqian Tang</span><p>Department of Automation · Tsinghua University</p><a href="#">Back to top ↑</a></footer>
+  </div>
+</body>
+</html>
